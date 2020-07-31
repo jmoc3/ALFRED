@@ -47,18 +47,8 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.boton_siguiente
-{
-    background:    #ff5733;
-    border-radius: 11px;
-    padding:       20px 45px;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 26px/1 "Open Sans", sans-serif;
-    text-align:    center;
-    text-decoration: none;
-}
-.boton_volver
+
+.boton
 {
     background:    #ff5733;
     border-radius: 11px;
@@ -72,6 +62,7 @@
 .botones_navegacion
 {
     display: inline-block;
+    text-align: none;
 }
 .derecha
 {
@@ -80,6 +71,10 @@
 .izquierda
 {
     text-align: left;
+}
+.centro
+{
+    text-align: center;
 }
 .tip
 {
